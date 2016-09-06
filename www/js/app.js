@@ -38,6 +38,16 @@ var LanguageApp = angular.module('LanguageApp', ['ionic', 'LanguageApp.controlle
             controller: 'mainCtrl'
           }
         }
+      })
+      
+      .state('app.language', {
+        url: '/language/:lang_name',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/language.html',
+            controller: 'languageCtrl'
+          }
+        }
       });
 
     // if none of the above states are matched, use this as the fallback

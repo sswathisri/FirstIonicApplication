@@ -2,3 +2,8 @@
 .la-background-img{
       background:url("../img/mainbackground.jpg") no-repeat fixed center; 
 }
+
+.la-iconsize
+{
+  font-size: 35px;
+}
