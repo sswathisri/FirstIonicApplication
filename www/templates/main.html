@@ -1,0 +1,25 @@
+<ion-view>
+  <ion-content class="la-background-img" scroll="false" overflow-scroll="true">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div align="center">
+      <h3>Encourage your Kids to learn new languages.</h3>
+      <br/>
+      <label>Select language to start</label>
+      <br/>
+      <select ng-model="selectedLanguage" style="width:300px;">
+        <option>English</option>
+        <option>Telugu</option>
+        <option>Hindi</option>
+      </select>
+      <input type="submit" value="Go" ng-click="GoToSelectedLanguageView(selectedLanguage)" style="background-color:#33cd5f;" />
+    </div>
+    <!--<div class="bar bar-footer vm-footercolor">
+      <div class="title" ng-click="modal.show()">Footer</div>
+    </div>-->
+  </ion-content>
+</ion-view>
